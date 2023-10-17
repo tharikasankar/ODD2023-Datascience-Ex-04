@@ -31,6 +31,7 @@ Find the pairwise correlation of all columns in the dataframe.corr()
 Save the final data set into the file.
 
 # PROGRAM:
+```
 Name : THARIKA S
 Register Number : 212222230159
 # SuperStore.csv file:
@@ -71,7 +72,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 df=pd.read_csv("/content/diabetes.csv")
-df
+
 df.describe()
 df.info
 df.isnull().sum()
@@ -101,6 +102,7 @@ sns.displot(df, x="Glucose", hue="Outcome")
 df.corr()
 
 sns.heatmap(df.corr(),annot=True)
+```
 # OUTPUT:
 # SUPERSTORE:
 # DATA FRAME OF SUPERSTORE
@@ -128,5 +130,25 @@ sns.heatmap(df.corr(),annot=True)
 ![image](https://github.com/tharikasankar/ODD2023-Datascience-Ex-04/assets/119475507/4513074a-8231-437d-8a87-aca1453172b9)
 
 # DIABETES
-# DATA FRAME FOR DIABETES
-
+# Data describing
+![image](https://github.com/tharikasankar/ODD2023-Datascience-Ex-04/assets/119475507/adcd546b-702c-451b-b0ea-3ccc2e64b841)
+# Data info
+![image](https://github.com/tharikasankar/ODD2023-Datascience-Ex-04/assets/119475507/384b4f41-5a5c-4255-8eb8-719d61a3ead8)
+# data isnull
+![image](https://github.com/tharikasankar/ODD2023-Datascience-Ex-04/assets/119475507/79b2c2a3-d308-4136-a93f-7436d9f24fd9)
+# Scatter plot
+![image](https://github.com/tharikasankar/ODD2023-Datascience-Ex-04/assets/119475507/e45fb5b8-1fa9-41d3-9f90-63ada39c6a9b)
+![image](https://github.com/tharikasankar/ODD2023-Datascience-Ex-04/assets/119475507/d24512c7-d5e9-4d76-b995-e2bfd2c8880d)
+# Bar plot
+![image](https://github.com/tharikasankar/ODD2023-Datascience-Ex-04/assets/119475507/782c8922-cc5e-4256-ab86-1d1219f0257d)
+![image](https://github.com/tharikasankar/ODD2023-Datascience-Ex-04/assets/119475507/7b112abc-6241-425a-a476-2563aedbf3d3)
+# Box plot 
+![image](https://github.com/tharikasankar/ODD2023-Datascience-Ex-04/assets/119475507/932a7fdd-61a5-4ab0-8bf0-49af24d7d555)
+# Dist plot
+![image](https://github.com/tharikasankar/ODD2023-Datascience-Ex-04/assets/119475507/6de596e7-63c5-410d-ac96-5a3e8228a1df)
+# Correlation coefficient interpretation
+![image](https://github.com/tharikasankar/ODD2023-Datascience-Ex-04/assets/119475507/8e183194-c3ed-48c7-ba73-6152b385b247)
+# Heat map
+![image](https://github.com/tharikasankar/ODD2023-Datascience-Ex-04/assets/119475507/f0fc4c99-3023-4c31-8f7f-fcf99573796f)
+# RESULT:
+Thus we have read the given data and performed the multivariate analysis with different types of plots.
